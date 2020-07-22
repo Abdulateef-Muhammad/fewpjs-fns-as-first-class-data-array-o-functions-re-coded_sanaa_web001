@@ -31,7 +31,7 @@ function exerciseDog(dogName, dogBreed) {
     result = routine[i](dogName, dogBreed);
     results.push(result);
   }
-  return typeof results;
+  return results;
 }
 
 console.log(exerciseDog('Bryon', 'poodle'));
