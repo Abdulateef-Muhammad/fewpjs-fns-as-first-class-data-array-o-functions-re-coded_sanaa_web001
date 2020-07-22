@@ -26,6 +26,8 @@ let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog
 
 function excerciseDog(dogName, dogBreed) {
   for(let i = 0; i < routine.length; i++) {
-    
+    routine[i](dogName, dogBreed);
   }
 }
+
+excerciseDog('Bryon', 'poodle');
