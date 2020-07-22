@@ -34,4 +34,4 @@ function exerciseDog(dogName, dogBreed) {
   return typeof results;
 }
 
-exerciseDog('Bryon', 'poodle');
+console.log(exerciseDog('Bryon', 'poodle'));
