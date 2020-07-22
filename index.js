@@ -25,11 +25,13 @@ function unleashDog(dogName, dogBreed) {
 let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
 
 function exerciseDog(dogName, dogBreed) {
-  let result = [];
+  let result = '';
+  let results = [];
   for(let i = 0; i < routine.length; i++) {
-    result.push(routine[i](dogName, dogBreed));
+    result = routine[i](dogName, dogBreed);
+    results.push(result);
   }
-  return result.length;
+  return result;
 }
 
 exerciseDog('Bryon', 'poodle');
