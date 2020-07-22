@@ -22,4 +22,9 @@ function unleashDog(dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`;
 }
 
+function excerciseDog(dogName, dogBreed) {
+  return `excercise ${dogName} the ${dogBreed}`;
+}
+
+let routine = [];
 
