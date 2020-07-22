@@ -31,7 +31,7 @@ function exerciseDog(dogName, dogBreed) {
     result = routine[i](dogName, dogBreed);
     results.push(result);
   }
-  return result;
+  return results;
 }
 
 exerciseDog('Bryon', 'poodle');
